@@ -1,0 +1,27 @@
+{
+  "name": "image-ranking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=9000 nodemon ./server/app.js",
+    "start:debug": "PORT=9000 nodemon --inspect ./server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
