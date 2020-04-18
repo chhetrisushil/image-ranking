@@ -7,7 +7,7 @@
 * Run `npm i` in the root folder
 * Run `npm run start` to start the server (Server listens at port 9000, to change update the package.json)
 * Run `mongod --dbpath ./data` to start mongo on default port
-* Access [localhost:9000|http://localhost:9000]
+* Access [localhost:9000](http://localhost:9000)
 
 ### Debug
 
